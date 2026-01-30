@@ -1,0 +1,211 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Google-Style Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    margin: 30px auto;
+}
+
+/* Navbar Links */
+.navbar a {
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 14px;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.navbar a:hover {
+    color: black;
+}
+
+
+/* Container */
+.container {
+    margin-top: 50px;
+}
+
+/* User Info */
+.user-info {
+    display: inline-block;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+/* Help Text */
+.help-text {
+    font-size: 18px;
+    color: #555;
+    margin-top: 30px;
+}
+
+/* Quick Links */
+.quick-links {
+    margin-top: 30px;
+}
+
+.quick-links a {
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+}
+
+.quick-links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #ddd;
+}
+
+
+/* Quick Links Section */
+.quick-links-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.quick-link {
+    background: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.quick-link:hover {
+    transform: translateY(-5px);
+}
+
+/* Image Styling */
+.quick-link img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Title & Description */
+.quick-link h2 {
+    font-size: 18px;
+    color: #202124;
+}
+
+.quick-link p {
+    font-size: 14px;
+    color: #5f6368;
+}
+
+/* Link Styling */
+.quick-link a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.quick-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Navbar Styling */
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Links Styling */
+.nav-bar a {
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 14px;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-bar a:hover {
+    color: #1a73e8;
+}

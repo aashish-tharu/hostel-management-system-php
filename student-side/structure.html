@@ -1,0 +1,76 @@
+<!-- 
+<?php
+    session_start();
+    include("connect.php");
+    $profile = $_SESSION['Username'];
+    if ($profile == True) {
+
+    } else {
+        header("Location:index.php");
+    }
+?> -->
+
+<html>
+
+<head>
+    <title>Home-Chitkara University</title>
+    <link rel="stylesheet" href="gatepass.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="https://www.chitkara.edu.in/chitkara-university-logo.png" alt="Logo">
+        </div>
+        <div class="importantlink">
+            <a href="#">Home</a>
+            <a href="#">Gatepass</a>
+            <a href="#">Non-Disciplinary Action</a>
+            <a href="#">Hostel Checkout</a>
+            <a href="#">Change Password</a>
+            <a href="logout.php">Logout</a>
+        </div>
+    </div>
+    <div class="profile">
+
+    <div class="image-profile-div">
+        <img src = "https://png.pngtree.com/png-vector/20241123/ourmid/pngtree-profile-picture-icon-hijab-girl-cute-vector-png-image_14543498.png" height="100px" widht="100px" style="background-color: transparent">
+    </div>
+    <div class="profile-detais">
+        <!-- <h4>
+    <?php
+    echo "Hi ";
+    $username = $_SESSION['Username']; 
+    $check = "SELECT * FROM signup WHERE StudentID='$username'";
+    $data = mysqli_query($conn, $check);
+        $result = mysqli_fetch_assoc($data);
+            echo $result['Name'];
+    ?> -->
+    <!-- <h4>
+    <?php
+    $username = $_SESSION['Username']; 
+    $check = "SELECT * FROM signup WHERE studentID='$username'";
+    $data = mysqli_query($conn, $check);
+        $result = mysqli_fetch_assoc($data);
+            echo $result['Email'];
+    ?> -->
+    </h4>
+    </h4>
+</div>
+
+</div>
+
+
+    <div class="gatepass-history">
+        <div class="heading">Gatepass History</div>
+        <button class="apply-gatepass">Apply Gate pass</button>
+    </div>
+    <div class="history-datails">
+        
+    </div>
+    
+    
+</body>
+
+</html>

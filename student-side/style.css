@@ -1,0 +1,221 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #F0F4F9;
+}
+body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    height: 100vh;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 150px;
+    color: red;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+}
+h3{
+    text-align: center;
+}
+.input-group{
+    background-color: aliceblue;
+    height: 50px;
+    width: 350px;
+    padding: 5px;
+    margin-bottom: 20px;
+    align-content: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.input-group i{
+    padding-left: 10px;
+    background: transparent;
+}
+.input-group input{
+    height: 100%;
+    width: 88%;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+.input-group ::placeholder{
+    font-size: 20px;
+    text-align: center;
+}
+.btn{
+    background-color: red;
+    height: 60px;
+    width: 360px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight:bolder;
+}
+.recover {
+    margin: 15px;
+    text-align: center;
+}
+.recover a{
+    text-decoration: none;
+    color: black;
+}
+.recover a:hover{
+    font-size: 17px;
+}
+.question{
+    text-align: center;
+    font-size: 10px;
+    margin: 15px;
+}
+.copyright {
+    text-align: center;
+    margin: 15px;
+}
+.links {
+    text-align: center;
+}
+.links p{
+    padding: 20px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #F0F4F9;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 100px;
+    color: red;
+    margin-bottom: -20px;
+}
+
+.logo h2 {
+    font-size: 40px;
+    color: #333;
+}
+
+.logo h3 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.input-group i {
+    color: #666;
+    margin-right: 10px;
+}
+
+.input-group input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #cc0000;
+}
+
+.links {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.links a {
+    color: red;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.recover {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.recover a {
+    color: #666;
+    text-decoration: none;
+}
+
+.recover a:hover {
+    color: red;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #666;
+}
+
+.footer a {
+    color: red;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 12px;
+}

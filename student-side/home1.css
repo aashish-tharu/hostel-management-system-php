@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #F0F4F9;
+}
+.header {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    background-color: white;
+    display: flex;
+
+}
+.logo {
+    height: auto;
+    width: 250px;
+    padding: 5px;
+}
+.logo img {
+    height: fit-content;
+    background-color: white;
+
+}
+.importantlink {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: white;
+    overflow: auto;
+}
+.importantlink a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: transparent;
+}
+.importantlink a:hover {
+    color: red;
+}
+.profile {
+    height: 125px;
+    width: 80%;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-radius: 10px;
+    border-left: 5px solid red;
+}
+.body {
+    height: 400px;
+    width: 80%;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 10%;
+    border-radius: 10px;
+    border-left: 5px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    overflow: auto;
+    /* gap: 4%; */
+    
+}
+.body > div {
+    height: 150px;
+    width: 20%;
+    overflow: hidden;
+    margin-left: 4%;
+    border: 3px solid gray;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.body > div > h1 {
+    color: red;
+    text-decoration: underline;
+    font-size: 1rem;
+    margin-top: 5px;
+    background-color: transparent;
+    padding: 5px;
+}
+.body > div > p {
+    font-size: 0.8rem;
+    background-color: transparent;
+    padding: 5px;
+}
+
+
+.profile > h4{
+    background-color: transparent;
+}
+
+#main-profile {
+    height: 100px;
+    width: 100px;
+}
+
+.image-profile-div {
+    background-color: transparent;
+}
+
+.header {
+    display: flex;
+}
+
+.profile {
+    display: flex;
+
+}
+
+.profile-detais {
+    background-color: white;
+    margin-top: 25px;
+}
+
+.profile-detais > h4 {
+    background-color: white;
+    /* margin-top: 25px; */
+}

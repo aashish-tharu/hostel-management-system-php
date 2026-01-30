@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 80px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.link {
+    display: flex;
+    gap: 30px;
+}
+
+.link > a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.page-link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.page-link > div {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px;
+}

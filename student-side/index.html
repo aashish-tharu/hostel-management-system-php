@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container" id="signup" style="display: none;">
+            <h1>U</h1>
+            <h2>HOSTEL</h2>
+            <h3>HIMACHAL PRADESH</h3>
+            <form method="post" action="register.php">
+                <div class="input-group">
+                    <i class="fa-solid fa-person"></i>
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                </div>
+                <div class="input-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <i class="fa-solid fa-at"></i>
+                    <input type="text" placeholder="Username" name="sid" id="sid" required>
+                </div>
+                <div class="input-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+                <input type="submit" class="btn" value="SignUp" name="signUp">
+            </form>
+            <div class="links">
+                <p>Already Have Account ?</p>
+                <button id="signInButton" class="btn">Sign In</button>
+            </div>
+        </div>
+
+        <!-- sign up -->
+        <div class="container" id="signIn">
+            <h1>U</h1>
+            <h2>HOSTEL</h2>
+            <h3>HIMACHAL PRADESH</h3>
+            <form method="post" action="register.php">
+                <div class="input-group">
+                    <i class="fa-solid fa-at"></i>
+                    <input type="text" placeholder="Username" name="sid" id="sid" required>
+                </div>
+                <div class="input-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+                <input type="submit" value="signIn" name="signIn" class="btn">
+                <div class="recover">
+                    <a href="#">Forgot your password? Click here</a>
+                </div>
+            </form>
+            <div class="question">
+                <p>Questions? Email us at <a href="mailto:uhostel@chitkarauniversity.edu.in" target="_blank">uhostel@chitkarauniversity.edu.in</a></p>
+            </div>
+            <div class="copyright">
+                <h6>Copyright ©️ 2025 Chitkra University</h6>
+            </div>
+            <div class="links">
+                <p>Don't have account yet?</p>
+                <button id="signUpButton" class="btn">Sign Up</button>
+            </div>
+        </div>
+        <script src="script.js">
+        </script>
+    </body>
+</html>
